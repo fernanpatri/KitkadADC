@@ -8022,7 +8022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005234efac")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0165"
 			(at 186.69 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8079,6 +8079,12 @@
 			(uuid "6843278c-3235-494c-9a84-02cf091d7400")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0165")
@@ -8104,7 +8110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000524a0814")
-		(property "Reference" "C15"
+		(property "Reference" "C79"
 			(at 187.96 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8221,6 +8227,12 @@
 			(uuid "d9f34acf-443a-4bfe-aab0-302160d191fb")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C79")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C79")
@@ -8246,7 +8258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000524a0830")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0168"
 			(at 195.58 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8303,6 +8315,12 @@
 			(uuid "f826cc4e-fdff-42a7-b6af-19924498d931")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0168")
@@ -8320,7 +8338,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 168.91 64.77 0)
-		(unit 1)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8328,7 +8346,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052895df7")
-		(property "Reference" "U8"
+		(property "Reference" "U35"
 			(at 172.72 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8479,6 +8497,12 @@
 			(uuid "be25f7ce-9071-495d-9919-680cd4e255bc")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U35")
+					(unit 4)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U35")
@@ -8496,7 +8520,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 168.91 77.47 0)
-		(unit 1)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8504,7 +8528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052895e33")
-		(property "Reference" "U9"
+		(property "Reference" "U35"
 			(at 172.72 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8655,6 +8679,12 @@
 			(uuid "ef9966ea-2b25-4b42-8632-0b6d72e554bd")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U35")
+					(unit 3)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U35")
@@ -8672,7 +8702,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 168.91 39.37 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8680,7 +8710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052895e54")
-		(property "Reference" "U6"
+		(property "Reference" "U35"
 			(at 172.72 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8831,6 +8861,12 @@
 			(uuid "bf915af8-78b0-4463-a501-1983db5109bf")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U35")
+					(unit 2)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U35")
@@ -8856,7 +8892,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000052895e70")
-		(property "Reference" "U7"
+		(property "Reference" "U35"
 			(at 172.72 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9007,6 +9043,12 @@
 			(uuid "929e7f79-b0de-4841-b277-535ec7619892")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U35")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U35")
@@ -9024,7 +9066,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 189.23 96.52 0)
-		(unit 1)
+		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9032,7 +9074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cc37b44")
-		(property "Reference" "U15"
+		(property "Reference" "U35"
 			(at 188.1632 95.3516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9065,7 +9107,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+		(property "Datasheet" ""
 			(at 190.5 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9185,6 +9227,12 @@
 			(uuid "a40a433e-5e4e-4d41-b796-cb229fbfc203")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U35")
+					(unit 5)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U35")
@@ -9210,7 +9258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ccbc822")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0177"
 			(at 149.86 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9267,6 +9315,12 @@
 			(uuid "2eb3172e-7f3a-4d63-a800-9c22aea7c23c")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0177")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0177")
@@ -9292,7 +9346,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ccbd0f3")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0175"
 			(at 147.32 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9349,6 +9403,12 @@
 			(uuid "b832ff19-d19d-45a3-8dd0-047c2db651f7")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0175")
@@ -9374,7 +9434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ccbd2df")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0173"
 			(at 144.78 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9431,6 +9491,12 @@
 			(uuid "55891a5a-4d18-43cf-b533-1130c31439dc")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0173")
@@ -9456,7 +9522,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ccbd43c")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0171"
 			(at 142.24 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9513,6 +9579,12 @@
 			(uuid "051e53f2-4ee0-484a-a42d-89676b2f7f1c")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0171")
@@ -9538,7 +9610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf034bb")
-		(property "Reference" "C14"
+		(property "Reference" "C40"
 			(at 176.53 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9655,6 +9727,12 @@
 			(uuid "789f28d7-1af3-499f-babc-7672438ae9f4")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C40")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C40")
@@ -9680,7 +9758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf034c5")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0193"
 			(at 185.42 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -9737,6 +9815,12 @@
 			(uuid "5411bc3e-fdf2-4c9d-9e9c-c47171d6698f")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0193")
@@ -9754,7 +9838,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 157.48 223.52 0)
-		(unit 1)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9762,7 +9846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf034d4")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 162.56 227.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9913,6 +9997,12 @@
 			(uuid "5f7bd8ed-8d06-46a5-8323-2b7b59a4401f")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U8")
+					(unit 4)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U8")
@@ -9930,7 +10020,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 157.48 236.22 0)
-		(unit 1)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9938,7 +10028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf034e3")
-		(property "Reference" "U4"
+		(property "Reference" "U8"
 			(at 162.56 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10089,6 +10179,12 @@
 			(uuid "a618feb0-5d27-4072-871d-1e53ce8a094b")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U8")
+					(unit 3)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U8")
@@ -10106,7 +10202,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 157.48 198.12 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10114,7 +10210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf034f2")
-		(property "Reference" "U1"
+		(property "Reference" "U8"
 			(at 162.56 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10265,6 +10361,12 @@
 			(uuid "ebd6a24b-6a1f-4ba0-854b-ff20d0d956e6")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U8")
+					(unit 2)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U8")
@@ -10290,7 +10392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf03501")
-		(property "Reference" "U2"
+		(property "Reference" "U8"
 			(at 162.56 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10441,6 +10543,12 @@
 			(uuid "92ffe975-1686-4f04-9c1a-454d59f20295")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U8")
@@ -10458,7 +10566,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 177.8 255.27 0)
-		(unit 1)
+		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10466,7 +10574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf0350f")
-		(property "Reference" "U14"
+		(property "Reference" "U8"
 			(at 176.7332 254.1016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10619,6 +10727,12 @@
 			(uuid "db6dd7e9-aa48-4507-9d7a-a0d2d1597986")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U8")
+					(unit 5)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U8")
@@ -10644,7 +10758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf035f0")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0202"
 			(at 60.96 234.315 0)
 			(hide yes)
 			(show_name no)
@@ -10701,6 +10815,12 @@
 			(uuid "70d8ca3a-7b30-4e1a-bc62-a528c4a51502")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0202")
@@ -10726,7 +10846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf035fd")
-		(property "Reference" "R6"
+		(property "Reference" "R56"
 			(at 62.992 229.235 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10841,6 +10961,12 @@
 			(uuid "339a324a-c4e9-4cf1-9984-eecc8b3677a4")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R56")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R56")
@@ -10866,7 +10992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf03607")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0203"
 			(at 56.515 234.315 0)
 			(hide yes)
 			(show_name no)
@@ -10923,6 +11049,12 @@
 			(uuid "7ad168dc-86e5-4bcb-a6e5-8dcd59ce9fd3")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0203")
@@ -10948,7 +11080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf03614")
-		(property "Reference" "R4"
+		(property "Reference" "R54"
 			(at 58.547 229.235 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11063,6 +11195,12 @@
 			(uuid "aeac3b44-170e-4388-82fe-8de635d3a2d0")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R54")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R54")
@@ -11088,7 +11226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf0361e")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0204"
 			(at 52.07 234.315 0)
 			(hide yes)
 			(show_name no)
@@ -11145,6 +11283,12 @@
 			(uuid "0fd8a877-7794-40db-a4f3-437eccf23fd2")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0204")
@@ -11170,7 +11314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf0362b")
-		(property "Reference" "R2"
+		(property "Reference" "R52"
 			(at 54.102 229.235 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11285,6 +11429,12 @@
 			(uuid "606dce81-c98c-4cd9-8fc5-d13c6625c5ab")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R52")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R52")
@@ -11310,7 +11460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf03639")
-		(property "Reference" "R9"
+		(property "Reference" "R58"
 			(at 67.437 229.235 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11425,6 +11575,12 @@
 			(uuid "37a93b3d-4a68-4f00-b898-d756a6886008")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R58")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R58")
@@ -11450,7 +11606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf03643")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0205"
 			(at 65.405 234.315 0)
 			(hide yes)
 			(show_name no)
@@ -11507,6 +11663,12 @@
 			(uuid "5014ec7e-aca0-45d6-9bb1-0b68bc81f017")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0205")
@@ -11533,7 +11695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf498e1")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0163"
 			(at 234.95 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11590,6 +11752,12 @@
 			(uuid "582d44e8-1948-4631-aaed-2f6dc6116c53")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0163")
@@ -11616,7 +11784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf498ee")
-		(property "Reference" "R39"
+		(property "Reference" "R131"
 			(at 232.918 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11731,6 +11899,12 @@
 			(uuid "a1f6b792-c20c-420b-8526-4f506a41d1f5")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R131")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R131")
@@ -11756,7 +11930,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf71a62")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0206"
 			(at 138.43 255.905 0)
 			(hide yes)
 			(show_name no)
@@ -11813,6 +11987,12 @@
 			(uuid "9febf04c-3fb9-47a1-9239-abcb4fc3e948")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0206")
@@ -11838,7 +12018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf71a6c")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0207"
 			(at 135.89 255.905 0)
 			(hide yes)
 			(show_name no)
@@ -11895,6 +12075,12 @@
 			(uuid "91f2af6c-f777-4555-b136-c5d58480fc29")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0207")
@@ -11920,7 +12106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf71a76")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0208"
 			(at 133.35 255.905 0)
 			(hide yes)
 			(show_name no)
@@ -11977,6 +12163,12 @@
 			(uuid "ce10cb53-6a7f-445e-9a7a-ed099f468449")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0208")
@@ -12002,7 +12194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf71a80")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0209"
 			(at 130.81 255.905 0)
 			(hide yes)
 			(show_name no)
@@ -12059,6 +12251,12 @@
 			(uuid "95132720-1765-4250-a12d-d98622b8d01a")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0209")
@@ -12084,7 +12282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf951cc")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0210"
 			(at 175.26 264.16 0)
 			(hide yes)
 			(show_name no)
@@ -12141,6 +12339,12 @@
 			(uuid "b10c3dc7-370a-4e36-8072-a87b3b9d4c0f")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0210")
@@ -12166,7 +12370,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf977e6")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0166"
 			(at 158.75 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -12223,6 +12427,12 @@
 			(uuid "c098352e-5b9a-49ae-8a66-b01d7c0ce9a7")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0166")
@@ -12248,7 +12458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf977f2")
-		(property "Reference" "C13"
+		(property "Reference" "C80"
 			(at 160.02 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12365,6 +12575,12 @@
 			(uuid "946871db-eacd-47b0-9152-335749d901bc")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C80")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C80")
@@ -12390,7 +12606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf977fc")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0169"
 			(at 167.64 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12447,6 +12663,12 @@
 			(uuid "4301b5e4-7c0d-45ba-8a2a-8ddd4ebf29ab")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0169")
@@ -12464,7 +12686,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 168.91 106.68 0)
-		(unit 1)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12472,7 +12694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf97816")
-		(property "Reference" "U10"
+		(property "Reference" "U36"
 			(at 172.72 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12623,6 +12845,12 @@
 			(uuid "3ccbcfab-792c-4984-8733-cccbd639fecf")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U36")
+					(unit 4)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U36")
@@ -12640,7 +12868,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 168.91 119.38 0)
-		(unit 1)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12648,7 +12876,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf97823")
-		(property "Reference" "U11"
+		(property "Reference" "U36"
 			(at 172.72 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12799,6 +13027,12 @@
 			(uuid "59addec3-6ff6-4c78-92be-6734dc4d063c")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U36")
+					(unit 3)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U36")
@@ -12816,7 +13050,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 168.91 132.08 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12824,7 +13058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf97830")
-		(property "Reference" "U12"
+		(property "Reference" "U36"
 			(at 172.72 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12975,6 +13209,12 @@
 			(uuid "a33e9537-d297-4741-bb6f-2983bfb9ecf0")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U36")
+					(unit 2)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U36")
@@ -13000,7 +13240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf9783d")
-		(property "Reference" "U13"
+		(property "Reference" "U36"
 			(at 172.72 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13151,6 +13391,12 @@
 			(uuid "fac89a7a-be90-4bba-88d6-85d073117a32")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U36")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U36")
@@ -13168,7 +13414,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 161.29 168.91 0)
-		(unit 1)
+		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13176,7 +13422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf9784b")
-		(property "Reference" "U5"
+		(property "Reference" "U36"
 			(at 160.2232 167.7416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13329,6 +13575,12 @@
 			(uuid "2e513619-1bb9-4b44-9fb3-de9ee6b6d51e")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U36")
+					(unit 5)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U36")
@@ -13354,7 +13606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf97873")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0178"
 			(at 149.86 165.735 0)
 			(hide yes)
 			(show_name no)
@@ -13411,6 +13663,12 @@
 			(uuid "6853d3c8-8a86-4bb5-91fe-b2fa1e54d7b0")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0178")
@@ -13436,7 +13694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf9787d")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0176"
 			(at 147.32 165.735 0)
 			(hide yes)
 			(show_name no)
@@ -13493,6 +13751,12 @@
 			(uuid "411e7640-0eb8-43fa-94bf-185202ff3d14")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0176")
@@ -13518,7 +13782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf97887")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0174"
 			(at 144.78 165.735 0)
 			(hide yes)
 			(show_name no)
@@ -13575,6 +13839,12 @@
 			(uuid "5e3a2447-b256-4096-bb1e-87a46c861bb1")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0174")
@@ -13600,7 +13870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cf97891")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0172"
 			(at 142.24 165.735 0)
 			(hide yes)
 			(show_name no)
@@ -13657,6 +13927,12 @@
 			(uuid "8710ca5c-26f3-4e00-839f-634b80c5c75b")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0172")
@@ -13682,7 +13958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cff5765")
-		(property "Reference" "R41"
+		(property "Reference" "R28"
 			(at 247.523 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13797,6 +14073,12 @@
 			(uuid "db7a641f-4fdd-46e9-b033-013d65a7fc0a")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R28")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R28")
@@ -13823,7 +14105,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0dddd4")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0136"
 			(at 252.73 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -13880,6 +14162,12 @@
 			(uuid "cc3a9bcb-3440-44f6-bc32-9a2a09430599")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0136")
@@ -13906,7 +14194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0ddde1")
-		(property "Reference" "R42"
+		(property "Reference" "R41"
 			(at 250.698 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14021,6 +14309,12 @@
 			(uuid "b3a228f5-99b4-4b5e-81b5-6994fd8791d7")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R41")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R41")
@@ -14046,7 +14340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7d1c")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0185"
 			(at 345.44 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -14103,6 +14397,12 @@
 			(uuid "03c63b1a-5fa1-4b18-b06f-d8d3e3d623b1")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0185")
@@ -14128,7 +14428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7d28")
-		(property "Reference" "C20"
+		(property "Reference" "C82"
 			(at 346.71 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14245,6 +14545,12 @@
 			(uuid "3bad065f-1da3-4786-9c1d-543120541110")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C82")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C82")
@@ -14270,7 +14576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7d32")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0188"
 			(at 354.33 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -14327,6 +14633,12 @@
 			(uuid "29ffab06-418b-4718-bbfd-11ae736f1bf8")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0188")
@@ -14344,7 +14656,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 346.71 71.12 0)
-		(unit 1)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14352,7 +14664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7d4c")
-		(property "Reference" "U16"
+		(property "Reference" "U46"
 			(at 347.98 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14503,6 +14815,12 @@
 			(uuid "2f26d25a-91d3-48d0-9096-c0df6aec03c4")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U46")
+					(unit 4)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U46")
@@ -14520,7 +14838,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 346.71 83.82 0)
-		(unit 1)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14528,7 +14846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7d59")
-		(property "Reference" "U17"
+		(property "Reference" "U46"
 			(at 347.98 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14679,6 +14997,12 @@
 			(uuid "bc536bb3-2097-4cd3-a0f9-cdee27f01616")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U46")
+					(unit 3)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U46")
@@ -14696,7 +15020,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 346.71 96.52 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14704,7 +15028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7d66")
-		(property "Reference" "U18"
+		(property "Reference" "U46"
 			(at 347.98 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14855,6 +15179,12 @@
 			(uuid "a91e2f81-7876-469c-a0a0-819381993c95")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U46")
+					(unit 2)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U46")
@@ -14880,7 +15210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7d73")
-		(property "Reference" "U19"
+		(property "Reference" "U46"
 			(at 347.98 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15031,6 +15361,12 @@
 			(uuid "57070fa3-f5d4-4cef-85e2-b0f4322e21ce")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U46")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U46")
@@ -15048,7 +15384,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 347.98 144.78 0)
-		(unit 1)
+		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15056,7 +15392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7d81")
-		(property "Reference" "U20"
+		(property "Reference" "U46"
 			(at 346.9132 143.6116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15209,6 +15545,12 @@
 			(uuid "7fb087f9-428c-49f7-a82e-f3b3a1a686f0")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "U46")
+					(unit 5)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "U46")
@@ -15234,7 +15576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7da9")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0198"
 			(at 327.66 131.445 0)
 			(hide yes)
 			(show_name no)
@@ -15291,6 +15633,12 @@
 			(uuid "64a0dc8d-8a7a-4511-a968-301d2ffb2451")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0198")
@@ -15316,7 +15664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7db3")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0196"
 			(at 325.12 131.445 0)
 			(hide yes)
 			(show_name no)
@@ -15373,6 +15721,12 @@
 			(uuid "cbd2ab72-de22-47b0-b9b8-b0c8359dd383")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0196")
@@ -15398,7 +15752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7dbd")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0194"
 			(at 322.58 131.445 0)
 			(hide yes)
 			(show_name no)
@@ -15455,6 +15809,12 @@
 			(uuid "909cbb47-9e5f-42cf-83f3-656d7d25af3f")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0194")
@@ -15480,7 +15840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7dc7")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0192"
 			(at 320.04 131.445 0)
 			(hide yes)
 			(show_name no)
@@ -15537,6 +15897,12 @@
 			(uuid "731fc123-f9ee-497e-a05b-dc66b3aa4158")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0192")
@@ -15562,7 +15928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7f1f")
-		(property "Reference" "R44"
+		(property "Reference" "R139"
 			(at 260.35 108.458 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15677,6 +16043,12 @@
 			(uuid "02761095-aeec-4ac4-88ba-389d6b6debce")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R139")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R139")
@@ -15703,7 +16075,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7f29")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0182"
 			(at 256.54 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -15760,6 +16132,12 @@
 			(uuid "9c7c7495-39f6-4965-86fe-66578ab5e3e2")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0182")
@@ -15785,7 +16163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d0e7f36")
-		(property "Reference" "R43"
+		(property "Reference" "R141"
 			(at 258.572 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15900,6 +16278,12 @@
 			(uuid "491aebce-6c94-467f-8cb1-729e234fe57a")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R141")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R141")
@@ -15925,7 +16309,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d1ff61b")
-		(property "Reference" "FID1"
+		(property "Reference" "FID5"
 			(at 168.529 14.5796 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16025,6 +16409,12 @@
 			)
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "FID5")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "FID5")
@@ -16050,7 +16440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d20808d")
-		(property "Reference" "FID2"
+		(property "Reference" "FID6"
 			(at 168.529 19.2786 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16150,6 +16540,12 @@
 			)
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "FID6")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "FID6")
@@ -16175,7 +16571,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d285e4c")
-		(property "Reference" "RN2"
+		(property "Reference" "RN3"
 			(at 93.98 47.8282 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16308,6 +16704,12 @@
 			(uuid "6ea5e879-c951-4674-842d-96832ba81ffc")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "RN3")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "RN3")
@@ -16333,7 +16735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d287216")
-		(property "Reference" "RN4"
+		(property "Reference" "RN13"
 			(at 275.59 80.8482 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16466,6 +16868,12 @@
 			(uuid "167466b2-b43f-4e0f-b8f8-b5a7d40d0306")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "RN13")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "RN13")
@@ -16491,7 +16899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d2cafc4")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0181"
 			(at 64.135 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -16548,6 +16956,12 @@
 			(uuid "1c847f3a-9533-432a-8812-d1ec30baa3a1")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0181")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0181")
@@ -16573,7 +16987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d2cafd1")
-		(property "Reference" "R8"
+		(property "Reference" "R34"
 			(at 66.167 137.795 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16688,6 +17102,12 @@
 			(uuid "b49802ce-e985-4a6a-bdb6-d6223f089218")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R34")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R34")
@@ -16713,7 +17133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d2cafdb")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0184"
 			(at 59.69 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -16770,6 +17190,12 @@
 			(uuid "46643dd4-b06f-4fc9-9069-6cc704cfc071")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0184")
@@ -16795,7 +17221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d2cafe8")
-		(property "Reference" "R5"
+		(property "Reference" "R31"
 			(at 61.722 137.795 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16910,6 +17336,12 @@
 			(uuid "bccee45c-fb2a-41c7-8d15-ae9b25b1baf1")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R31")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R31")
@@ -16935,7 +17367,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d2caff2")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0186"
 			(at 55.245 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -16992,6 +17424,12 @@
 			(uuid "58eedebc-b5d8-4c01-8932-c42973c9b46c")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0186")
@@ -17017,7 +17455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d2cafff")
-		(property "Reference" "R3"
+		(property "Reference" "R24"
 			(at 57.277 137.795 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17132,6 +17570,12 @@
 			(uuid "abffa26c-31fa-4158-8c93-944660b4af4d")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R24")
@@ -17157,7 +17601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d2cb00c")
-		(property "Reference" "R11"
+		(property "Reference" "R37"
 			(at 70.612 137.795 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17272,6 +17716,12 @@
 			(uuid "ba2f91ea-6fa6-4fce-9e7c-cbdfbbad55b0")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R37")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R37")
@@ -17297,7 +17747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d2cb016")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0187"
 			(at 68.58 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17354,6 +17804,12 @@
 			(uuid "2eb1584e-98d4-4e39-b90e-357467807f47")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0187")
@@ -17484,6 +17940,12 @@
 			(uuid "e0ee1561-876b-4fd6-ac0d-7acdb6573dc6")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R40")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R40")
@@ -17509,7 +17971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d32079b")
-		(property "Reference" "#FLG0101"
+		(property "Reference" "#FLG0104"
 			(at 343.535 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -17569,6 +18031,12 @@
 			(uuid "b638ca64-7638-4f75-91cd-3331525d64ec")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#FLG0104")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#FLG0104")
@@ -17594,7 +18062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d7d9529")
-		(property "Reference" "D4"
+		(property "Reference" "D29"
 			(at 252.73 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17709,6 +18177,12 @@
 			(uuid "db8d620f-7b64-4057-8511-df3f9cddf8b3")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "D29")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "D29")
@@ -17734,7 +18208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005de185f8")
-		(property "Reference" "D3"
+		(property "Reference" "D38"
 			(at 120.65 73.025 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17817,6 +18291,12 @@
 			(uuid "69cf761d-1ff5-4cef-9274-3292e524358a")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "D38")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "D38")
@@ -17842,7 +18322,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005de1b00b")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0142"
 			(at 113.03 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17899,6 +18379,12 @@
 			(uuid "f3e86301-12bf-41f8-a524-cafd7c983408")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0142")
@@ -17924,7 +18410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005de30b50")
-		(property "Reference" "D5"
+		(property "Reference" "D40"
 			(at 304.8 125.095 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18007,6 +18493,12 @@
 			(uuid "d2b07926-2d1a-40e9-8d4d-cd832f289460")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "D40")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "D40")
@@ -18032,7 +18524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005de3e61a")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0155"
 			(at 311.785 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -18089,6 +18581,12 @@
 			(uuid "243be0f9-9dd8-4d43-a34e-0746d6525c73")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0155")
@@ -18114,7 +18612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e34902f")
-		(property "Reference" "R7"
+		(property "Reference" "R14"
 			(at 61.468 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18229,6 +18727,12 @@
 			(uuid "d503a98b-30c4-45ab-bd27-60bbe085c716")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R14")
@@ -18254,7 +18758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e3d5586")
-		(property "Reference" "D1"
+		(property "Reference" "D13"
 			(at 107.95 233.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18337,6 +18841,12 @@
 			(uuid "dce41efe-78e6-456f-a816-a4ebea13917d")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "D13")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "D13")
@@ -18362,7 +18872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e439029")
-		(property "Reference" "D2"
+		(property "Reference" "D39"
 			(at 117.475 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18445,6 +18955,12 @@
 			(uuid "570d66d5-2854-404a-b3ef-8a618d8c3fa9")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "D39")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "D39")
@@ -18470,7 +18986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e44c048")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR029"
 			(at 125.095 151.765 0)
 			(hide yes)
 			(show_name no)
@@ -18527,6 +19043,12 @@
 			(uuid "a4fa321b-bf67-4550-84af-1aa6b788cd86")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR029")
@@ -18552,7 +19074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e4a2d71")
-		(property "Reference" "R10"
+		(property "Reference" "R23"
 			(at 65.913 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18667,6 +19189,12 @@
 			(uuid "055bd41d-4d87-4a49-9e0d-ec28a81d5e69")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R23")
@@ -18692,7 +19220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e4be55a")
-		(property "Reference" "R12"
+		(property "Reference" "R25"
 			(at 70.358 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18807,6 +19335,12 @@
 			(uuid "b249897f-5647-4dc5-bacc-70eef0e84436")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R25")
@@ -18832,7 +19366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e4be568")
-		(property "Reference" "R13"
+		(property "Reference" "R27"
 			(at 74.803 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18947,6 +19481,12 @@
 			(uuid "de103fda-72c6-4714-a513-92c6bbd7ae97")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R27")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R27")
@@ -18972,7 +19512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e4d13b5")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0152"
 			(at 100.33 244.475 0)
 			(hide yes)
 			(show_name no)
@@ -19029,6 +19569,12 @@
 			(uuid "250461db-7059-4758-921a-b17e46ac7349")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "#PWR0152")
@@ -19055,7 +19601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e614938")
-		(property "Reference" "R38"
+		(property "Reference" "R11"
 			(at 231.14 108.458 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19159,6 +19705,12 @@
 			(uuid "70f8c805-6713-485d-9524-c81d0ec44858")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R11")
@@ -19184,7 +19736,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e8570e8")
-		(property "Reference" "R25"
+		(property "Reference" "R35"
 			(at 189.23 130.302 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19195,7 +19747,7 @@
 			)
 		)
 		(property "Value" "6.8K"
-			(at 189.2554 128.4478 90)
+			(at 189.2554 128.4478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19255,6 +19807,12 @@
 			(uuid "17505cfe-2092-4091-9942-4c37f0ac5f0b")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R35")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R35")
@@ -19280,7 +19838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e893987")
-		(property "Reference" "R24"
+		(property "Reference" "R32"
 			(at 189.23 125.857 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19351,6 +19909,12 @@
 			(uuid "daf1ef4a-e576-41e2-a5da-5a30ced416d5")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R32")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R32")
@@ -19376,7 +19940,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e8942c8")
-		(property "Reference" "R23"
+		(property "Reference" "R26"
 			(at 189.23 121.412 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19447,6 +20011,12 @@
 			(uuid "611791d1-4bb3-42c0-86b4-1207906dc8b7")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R26")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R26")
@@ -19472,7 +20042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e894d23")
-		(property "Reference" "R22"
+		(property "Reference" "R5"
 			(at 189.23 116.967 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19543,6 +20113,12 @@
 			(uuid "99e0beb8-de02-49ca-b33e-e55028df94a5")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R5")
@@ -19568,7 +20144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e895700")
-		(property "Reference" "R33"
+		(property "Reference" "R46"
 			(at 208.28 130.302 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19683,6 +20259,12 @@
 			(uuid "de165d40-4d2c-483e-997f-fbf528ffa0c3")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R46")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R46")
@@ -19708,7 +20290,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e89629f")
-		(property "Reference" "R32"
+		(property "Reference" "R44"
 			(at 208.28 125.857 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19823,6 +20405,12 @@
 			(uuid "8b115abe-086f-463d-842c-bffb06fa7ecc")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R44")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R44")
@@ -19848,7 +20436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e896d64")
-		(property "Reference" "R31"
+		(property "Reference" "R39"
 			(at 208.28 121.412 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19963,6 +20551,12 @@
 			(uuid "5433ec0a-0a00-47bb-aad6-1c489b00e5eb")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R39")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R39")
@@ -19988,7 +20582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e8977d9")
-		(property "Reference" "R30"
+		(property "Reference" "R38"
 			(at 208.28 116.967 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20103,6 +20697,12 @@
 			(uuid "d5a5a7f5-3c80-45cd-a86a-2699afb1d2f6")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R38")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R38")
@@ -20128,7 +20728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ea4f118")
-		(property "Reference" "R15"
+		(property "Reference" "R55"
 			(at 176.53 212.852 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20199,6 +20799,12 @@
 			(uuid "ece718f6-ebfd-4163-9122-bcd7ff9df787")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R55")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R55")
@@ -20224,7 +20830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ea53d8f")
-		(property "Reference" "R16"
+		(property "Reference" "R57"
 			(at 176.53 217.297 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20295,6 +20901,12 @@
 			(uuid "c3b4b9d9-ae6f-4ae2-92e2-0c4a2a41e205")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R57")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R57")
@@ -20320,7 +20932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ea54cd0")
-		(property "Reference" "R17"
+		(property "Reference" "R59"
 			(at 176.53 221.742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20391,6 +21003,12 @@
 			(uuid "a39e5a7d-fd35-4ddd-9e2a-43b7f815de12")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R59")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R59")
@@ -20416,7 +21034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ea55863")
-		(property "Reference" "R14"
+		(property "Reference" "R53"
 			(at 176.53 208.407 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20487,6 +21105,12 @@
 			(uuid "b7c95316-af2f-45b1-a381-53ad8be26014")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R53")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R53")
@@ -20512,7 +21136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb40c4a")
-		(property "Reference" "R26"
+		(property "Reference" "R60"
 			(at 196.85 208.407 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20627,6 +21251,12 @@
 			(uuid "f1e82669-abcb-4d60-a1b7-6fab26cf9dc1")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R60")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R60")
@@ -20652,7 +21282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb46ec5")
-		(property "Reference" "R27"
+		(property "Reference" "R61"
 			(at 196.85 212.852 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20767,6 +21397,12 @@
 			(uuid "9948e8b9-31aa-4f83-b4c1-d361d250e76e")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R61")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R61")
@@ -20792,7 +21428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb47b3c")
-		(property "Reference" "R28"
+		(property "Reference" "R62"
 			(at 196.85 217.297 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20907,6 +21543,12 @@
 			(uuid "047d44c2-8666-4f89-9ff5-4254249f7fe2")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R62")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R62")
@@ -20932,7 +21574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eb486db")
-		(property "Reference" "R29"
+		(property "Reference" "R63"
 			(at 196.85 221.742 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21047,6 +21689,12 @@
 			(uuid "7be75cd4-5c77-45a4-8a25-78fabb4d0fe7")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R63")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R63")
@@ -21072,7 +21720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ed534fb")
-		(property "Reference" "C6"
+		(property "Reference" "C48"
 			(at 140.97 163.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21189,6 +21837,12 @@
 			(uuid "37e0c4c9-2805-44f6-be81-1594e723c215")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C48")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C48")
@@ -21214,7 +21868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ed604f9")
-		(property "Reference" "C8"
+		(property "Reference" "C49"
 			(at 143.51 163.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21331,6 +21985,12 @@
 			(uuid "568501b8-38c7-44eb-9493-83a76a832f9a")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C49")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C49")
@@ -21356,7 +22016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ed60db2")
-		(property "Reference" "C10"
+		(property "Reference" "C50"
 			(at 146.05 163.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21473,6 +22133,12 @@
 			(uuid "81c919ac-b35f-493e-9f02-e91ff27b3cec")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C50")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C50")
@@ -21498,7 +22164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ed616a9")
-		(property "Reference" "C12"
+		(property "Reference" "C51"
 			(at 148.59 163.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21615,6 +22281,12 @@
 			(uuid "57ebb560-fa3b-40a3-a1ce-ba543ff09433")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C51")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C51")
@@ -21640,7 +22312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ed8c0e0")
-		(property "Reference" "C1"
+		(property "Reference" "C16"
 			(at 129.54 254.635 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21757,6 +22429,12 @@
 			(uuid "d8eecd89-7080-44c7-b1e6-cc952912b078")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C16")
@@ -21782,7 +22460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ed92af7")
-		(property "Reference" "C2"
+		(property "Reference" "C45"
 			(at 132.08 254.635 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21899,6 +22577,12 @@
 			(uuid "15ba9043-5c86-431b-be31-abd6f663ce47")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C45")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C45")
@@ -21924,7 +22608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ed93342")
-		(property "Reference" "C3"
+		(property "Reference" "C46"
 			(at 134.62 254.635 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22041,6 +22725,12 @@
 			(uuid "76e5119c-27b4-493c-9ad6-2ed05f8145c9")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C46")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C46")
@@ -22066,7 +22756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ed93d0b")
-		(property "Reference" "C4"
+		(property "Reference" "C47"
 			(at 137.16 254.635 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22183,6 +22873,12 @@
 			(uuid "0090fcc5-116a-4b34-be8b-51154ef87f9e")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C47")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C47")
@@ -22208,7 +22904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ee262a2")
-		(property "Reference" "R18"
+		(property "Reference" "R64"
 			(at 187.325 49.657 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22279,6 +22975,12 @@
 			(uuid "71be493e-2bc3-4fdb-a274-72cbaaa3c49f")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R64")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R64")
@@ -22304,7 +23006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ee4decf")
-		(property "Reference" "R19"
+		(property "Reference" "R65"
 			(at 187.325 54.102 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22375,6 +23077,12 @@
 			(uuid "466e3b2f-b509-43c1-9ba7-3b7bfcafcccc")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R65")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R65")
@@ -22400,7 +23108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ee4e4ce")
-		(property "Reference" "R20"
+		(property "Reference" "R66"
 			(at 187.325 58.547 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22471,6 +23179,12 @@
 			(uuid "3e500576-f850-41ef-98a9-62c992a48600")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R66")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R66")
@@ -22496,7 +23210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ee4eaab")
-		(property "Reference" "R21"
+		(property "Reference" "R67"
 			(at 187.325 62.992 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22567,6 +23281,12 @@
 			(uuid "e6151deb-87c1-43da-b9c4-8ed8c6e9b825")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R67")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R67")
@@ -22592,7 +23312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eed1fb8")
-		(property "Reference" "RN1"
+		(property "Reference" "RN2"
 			(at 82.55 206.5782 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22725,6 +23445,12 @@
 			(uuid "ed616207-1673-4cce-961a-68b4c45a203d")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "RN2")
@@ -22750,7 +23476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef25b11")
-		(property "Reference" "RN3"
+		(property "Reference" "RN4"
 			(at 99.06 115.1382 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22883,6 +23609,12 @@
 			(uuid "b94b2627-2a79-4b63-be02-7e604914eb1e")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "RN4")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "RN4")
@@ -22908,7 +23640,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef6a311")
-		(property "Reference" "R34"
+		(property "Reference" "R68"
 			(at 209.55 49.657 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23023,6 +23755,12 @@
 			(uuid "0315f3e2-6449-4efa-b116-cdff3ca2a8c1")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R68")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R68")
@@ -23048,7 +23786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef93b47")
-		(property "Reference" "R35"
+		(property "Reference" "R69"
 			(at 209.55 54.102 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23163,6 +23901,12 @@
 			(uuid "34377501-fbeb-49f4-a504-e13182dd9b9e")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R69")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R69")
@@ -23188,7 +23932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef9423c")
-		(property "Reference" "R36"
+		(property "Reference" "R70"
 			(at 209.55 58.547 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23303,6 +24047,12 @@
 			(uuid "38bff4b4-442c-4e6c-b2c7-3e567e4b9daa")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R70")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R70")
@@ -23328,7 +24078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef947d5")
-		(property "Reference" "R37"
+		(property "Reference" "R71"
 			(at 209.55 62.992 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23443,6 +24193,12 @@
 			(uuid "f0128f56-6dd5-4a7f-8b17-77aa444a0efa")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R71")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R71")
@@ -23468,7 +24224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eff5fcc")
-		(property "Reference" "C5"
+		(property "Reference" "C52"
 			(at 140.97 95.885 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23585,6 +24341,12 @@
 			(uuid "9f9a5501-61e5-45a4-a922-470bf3de0701")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C52")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C52")
@@ -23610,7 +24372,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005efffd76")
-		(property "Reference" "C7"
+		(property "Reference" "C53"
 			(at 143.51 95.885 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23727,6 +24489,12 @@
 			(uuid "3f4bb66c-d1ae-4439-b190-2baba534ac96")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C53")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C53")
@@ -23752,7 +24520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f000553")
-		(property "Reference" "C9"
+		(property "Reference" "C54"
 			(at 146.05 95.885 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23869,6 +24637,12 @@
 			(uuid "40ce39ec-2ba3-457b-90a6-8cf3f46fde7d")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C54")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C54")
@@ -23894,7 +24668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f000d78")
-		(property "Reference" "C11"
+		(property "Reference" "C55"
 			(at 148.59 95.885 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24011,6 +24785,12 @@
 			(uuid "046d1f77-2419-486f-8e43-27af278ee9da")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C55")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C55")
@@ -24036,7 +24816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f02b3ff")
-		(property "Reference" "C16"
+		(property "Reference" "C56"
 			(at 318.77 130.175 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24153,6 +24933,12 @@
 			(uuid "75852742-e7c0-4ae3-bf5f-3e6d27110e7e")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C56")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C56")
@@ -24178,7 +24964,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0367b8")
-		(property "Reference" "C17"
+		(property "Reference" "C57"
 			(at 321.31 130.175 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24295,6 +25081,12 @@
 			(uuid "b189398d-80b1-44ab-9f2d-2bb02a73b131")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C57")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C57")
@@ -24320,7 +25112,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f036d6d")
-		(property "Reference" "C18"
+		(property "Reference" "C58"
 			(at 323.85 130.175 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24437,6 +25229,12 @@
 			(uuid "33202c57-b5bf-4cc0-9c56-b4862348db4c")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C58")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C58")
@@ -24462,7 +25260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f0372da")
-		(property "Reference" "C19"
+		(property "Reference" "C59"
 			(at 326.39 130.175 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24579,6 +25377,12 @@
 			(uuid "b6b7837d-d055-449c-bf04-02c6829947de")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "C59")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "C59")
@@ -24604,7 +25408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f35cbb1")
-		(property "Reference" "R46"
+		(property "Reference" "R73"
 			(at 365.76 82.677 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24675,6 +25479,12 @@
 			(uuid "dd330c65-cea7-4590-ba33-f3676d80356f")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R73")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R73")
@@ -24700,7 +25510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f360c90")
-		(property "Reference" "R45"
+		(property "Reference" "R72"
 			(at 365.76 78.232 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24771,6 +25581,12 @@
 			(uuid "fac07378-9fd3-4c55-89e4-43b89b6575e5")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R72")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R72")
@@ -24796,7 +25612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f3611b1")
-		(property "Reference" "R47"
+		(property "Reference" "R74"
 			(at 365.76 87.122 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24867,6 +25683,12 @@
 			(uuid "d5c8935a-e1dc-4174-8af3-a85e3fb6b499")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R74")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R74")
@@ -24892,7 +25714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f361666")
-		(property "Reference" "R48"
+		(property "Reference" "R75"
 			(at 365.76 91.567 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24963,6 +25785,12 @@
 			(uuid "e1c3caa4-6013-478e-ae04-9506aed5b17c")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R75")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R75")
@@ -24988,7 +25816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f3644b5")
-		(property "Reference" "R49"
+		(property "Reference" "R76"
 			(at 389.89 78.232 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25103,6 +25931,12 @@
 			(uuid "d3abb631-8a31-4476-841f-caeb2bc57d04")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R76")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R76")
@@ -25128,7 +25962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f3695aa")
-		(property "Reference" "R50"
+		(property "Reference" "R77"
 			(at 389.89 82.677 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25243,6 +26077,12 @@
 			(uuid "57e3986e-0b4e-4b5a-ac48-4254a0ef4ca3")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R77")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R77")
@@ -25268,7 +26108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f369a43")
-		(property "Reference" "R51"
+		(property "Reference" "R78"
 			(at 389.89 87.122 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25383,6 +26223,12 @@
 			(uuid "1885310a-ba7b-4312-9b90-ac137e9eb58b")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R78")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R78")
@@ -25408,7 +26254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f369f0c")
-		(property "Reference" "R52"
+		(property "Reference" "R79"
 			(at 389.89 91.567 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25523,6 +26369,12 @@
 			(uuid "37af6a70-90c1-45cb-a397-ebddfd49a88f")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R79")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R79")
@@ -25549,7 +26401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4672b7")
-		(property "Reference" "R1"
+		(property "Reference" "R7"
 			(at 50.038 206.375 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25653,6 +26505,12 @@
 			(uuid "9e713087-ce00-45e5-940f-b6dad25f7aeb")
 		)
 		(instances
+			(project "KITKADADC"
+				(path "/7abc5919-1e50-493f-9841-d705b6442d51"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/8d063f79-9282-4820-bcf4-1ff3c006cf08/00000000-0000-0000-0000-00005ce2282d"
 					(reference "R7")
